@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.herorow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: rgba(137, 43, 226, 0.665);
+}
+
+.leftwrite h1 {
+    font-size: 400%;
+    color: white;
+}
+
+.leftwrite p {
+    font-size: 105%;
+    margin-top: 3%;
+    color: white;
+}
+
+.leftwrite button {
+    margin-top: 3%;
+    padding: 2.5% 4%;
+    font-size: 90%;
+    border: none;
+    background-color: white;
+    font-weight: 500;
+}
+
+.leftwrite button:hover {
+    background-color: rgba(137, 43, 226, 0.127);
+    color: white;
+    border: 1px solid white;
+}
+
+.crudwrite {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.crudwrite h1 {
+    font-size: 250%;
+}
+
+.crudwrite p {
+    margin-top: 0.7%;
+    font-size: 120%;
+    color: gray;
+}
+
+.crudrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    margin: 3%;
+    flex-wrap: wrap;
+}
+
+.crudcard {
+    width: 20%;
+    height: 45vh;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 5%;
+}
+
+.crudcard img {
+    width: 30%;
+    height: 25vh;
+}
+
+.crudcard h4 {
+    font-size: 140%;
+    margin-top: 10%;
+}
+
+.crudcard p {
+    margin-top: 5%;
+    font-size: 120%;
+}
+
+.crudcard button {
+    margin-top: 5%;
+    font-size: 120%;
+    padding: 3% 5%;
+    border: none;
+    background-color: white;
+}
+
+.crudcard button:hover {
+    background-color: rgba(137, 43, 226, 0.38);
+    color: white;
+    border: 1px solid rgba(137, 43, 226, 0.38);
+}
+
+.cardsimage {
+    background-image: url("../images/feature.webp");
+    height: 90vh;
+    width: 100%;
+    padding-top: 2%;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    gap: 8%;
+}
+
+.cards {
+    width: 20%;
+    height: 20vh;
+    margin-top: 5%;
+    padding-left: 1%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.cards div {
+    display: flex;
+    font-size: 150%;
+    margin-top: 5%;
+}
+.cards div:hover {
+    color: rgba(137, 43, 226, 0.466);
+}
+
+.cards p {
+    font-size: 130%;
+    margin-top: 5%;
+}
+.crudwrites {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.crudwrites h1 {
+    font-size: 250%;
+    color: white;
+}
+
+.crudwrites p {
+    margin-top: 0.7%;
+    font-size: 120%;
+    color: white;
+}
